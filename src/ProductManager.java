@@ -6,7 +6,7 @@ public class ProductManager {
     
     //This section adds new products to the collectio
     public void addProduct(Product product){
-        product.add(product);
+        products.add(product);
     }
 
     //This will display all of the products
