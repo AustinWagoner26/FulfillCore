@@ -1,3 +1,5 @@
+
+
 public class Product{
     private int productId;
     private String productName;
@@ -41,6 +43,7 @@ public class Product{
     
     //this will display the product information
     public void displayProduct(){
+
         System.out.println("Product ID: " + productId);
         System.out.println("Product Name: " + productName);
         System.out.printf("Price: $%.2f%n", price);
